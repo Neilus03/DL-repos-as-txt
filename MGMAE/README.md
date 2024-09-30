@@ -1,4 +1,5 @@
-# MGMAE: Motion Guided Masking for Video Masked Autoencoding
+# [MGMAE: Motion Guided Masking for Video Masked Autoencoding](https://arxiv.org/abs/2308.10794)
+
 ![image](https://github.com/user-attachments/assets/1f14bc14-e4ac-473c-b995-925ddb6b97af)
 
 ## Abstract:
