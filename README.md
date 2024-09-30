@@ -11,22 +11,11 @@ LLMs can easily process this text format, allowing you to:
 - Integrate code into your own projects seamlessly.
 - Rapidly adapt repositories to suit new research directions or experiments.
 
-Each repository is accompanied by:
+Each folder in this repo contains:
 1. A **brief summary** of the associated paper.
 2. The **original paper** in PDF format.
 3. The **complete GitHub repository** in `.txt` format.
 
-## Example Structure
-
-paper-1/
-- summary.txt (a brief explanation of the paper)
-- paper.pdf (the original research paper)
-- repo.txt (the full GitHub repo as a .txt file)
-
-paper-2/
-- summary.txt
-- paper.pdf
-- repo.txt
 
 ### Key Focus Areas:
 - Deep Learning
