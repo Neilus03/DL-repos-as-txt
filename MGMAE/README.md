@@ -10,5 +10,18 @@ Masked autoencoding has shown excellent performance on self-supervised video rep
 ## Original Repo
 [[ICCV 2023] Official Implementation of MGMAE](https://github.com/MCG-NJU/MGMAE)
 
-## Authors:
+## Authors
 Bingkun Huang, Zhiyu Zhao, Guozhen Zhang, Yu Qiao, Limin Wang
+
+## Citation
+```bash
+@misc{huang2023mgmaemotionguidedmasking,
+      title={MGMAE: Motion Guided Masking for Video Masked Autoencoding}, 
+      author={Bingkun Huang and Zhiyu Zhao and Guozhen Zhang and Yu Qiao and Limin Wang},
+      year={2023},
+      eprint={2308.10794},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2308.10794}, 
+}
+``
