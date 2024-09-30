@@ -39,7 +39,7 @@ paper-2/
 
 1. **[Masked Autoencoders as Spatiotemporal Learners](https://arxiv.org/abs/2205.09113)**  
    - **Summary**: This paper presents an extension of Masked Autoencoders (MAE) for learning spatiotemporal representations from videos. By randomly masking spacetime patches in videos, the autoencoder is trained to reconstruct the missing information. The method is efficient and achieves competitive results on various video datasets.  
-   - **Paper**: [](https://arxiv.org/pdf/2205.09113)  
+   - **Paper**: [arXiv](https://arxiv.org/pdf/2205.09113)  
    - **Full Repository**: [MAE Video](https://github.com/facebookresearch/mae_st) (available in repo.txt)
 
 
