@@ -9,20 +9,20 @@ We make use of masking (across image patches and input modalities) to make train
 The experiments are performed on multiple transfer tasks (image classification, semantic segmentation, depth estimation) and datasets (ImageNet, ADE20K, Taskonomy, Hypersim, NYUv2). The results show an intriguingly impressive capability by the model in cross-modal/task predictive coding and transfer.
 Pre-training video transformers on extra large-scale datasets is generally required to achieve premier performance on relatively small datasets. In this paper, we show that video masked autoencoders (VideoMAE) are data-efficient learners for self-supervised video pre-training (SSVP). We are inspired by the recent ImageMAE and propose customized video tube masking with an extremely high ratio. This simple design makes video reconstruction a more challenging self-supervision task, thus encouraging extracting more effective video representations during this pre-training process. We obtain three important findings on SSVP: (1) An extremely high proportion of masking ratio (i.e., 90% to 95%) still yields favorable performance of VideoMAE. The temporally redundant video content enables a higher masking ratio than that of images. (2) VideoMAE achieves impressive results on very small datasets (i.e., around 3k-4k videos) without using any extra data. (3) VideoMAE shows that data quality is more important than data quantity for SSVP. Domain shift between pre-training and target datasets is an important issue. Notably, our VideoMAE with the vanilla ViT can achieve 87.4% on Kinetics-400, 75.4% on Something-Something V2, 91.3% on UCF101, and 62.6% on HMDB51, without using any extra data. Code is available at [https://github.com/MCG-NJU/VideoMAE](https://github.com/MCG-NJU/VideoMAE)
 ## Original Repo
-[MultiMAE: Multi-modal Multi-task Masked Autoencoders](https://github.com/EPFL-VILAB/MultiMAE)
+[Official PyTorch Implementation of VideoMAE (NeurIPS 2022 Spotlight).](https://github.com/MCG-NJU/VideoMAE)
 
 ## Authors
-Roman Bachmann, David Mizrahi, Andrei Atanov, Amir Zamir
+Zhan Tong, Yibing Song, Jue Wang, Limin Wang
 
 ## Citation
 ```bash
-@misc{bachmann2022multimaemultimodalmultitaskmasked,
-      title={MultiMAE: Multi-modal Multi-task Masked Autoencoders}, 
-      author={Roman Bachmann and David Mizrahi and Andrei Atanov and Amir Zamir},
+@misc{tong2022videomaemaskedautoencodersdataefficient,
+      title={VideoMAE: Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training}, 
+      author={Zhan Tong and Yibing Song and Jue Wang and Limin Wang},
       year={2022},
-      eprint={2204.01678},
+      eprint={2203.12602},
       archivePrefix={arXiv},
       primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2204.01678}, 
+      url={https://arxiv.org/abs/2203.12602}, 
 }
 ```
