@@ -11,6 +11,7 @@ LLMs can easily process this text format, allowing you to:
 - Integrate code into your own projects seamlessly.
 - Rapidly adapt repositories to suit new research directions or experiments.
 
+## Structure
 Each folder in this repo contains:
 1. A **README** containing the abstract, main figure, authors and citation of the associated paper.
 2. The **complete GitHub repository** in `.txt` format.
