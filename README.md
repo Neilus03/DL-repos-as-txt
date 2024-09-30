@@ -12,9 +12,8 @@ LLMs can easily process this text format, allowing you to:
 - Rapidly adapt repositories to suit new research directions or experiments.
 
 Each folder in this repo contains:
-1. A **brief summary** of the associated paper.
-2. The **original paper** in PDF format.
-3. The **complete GitHub repository** in `.txt` format.
+1. A **README** containing the abstract, main figure, authors and citation of the associated paper.
+2. The **complete GitHub repository** in `.txt` format.
 
 
 ### Key Focus Areas:
