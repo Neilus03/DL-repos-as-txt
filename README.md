@@ -51,10 +51,11 @@ To convert any GitHub repository into a single `.txt` file that can be fed into 
 1. Clone the desired repository you want to convert into `.txt`.
 2. Place the repository folder on your machine.
 3. Modify the `repo_folder` path in the `repo_to_txt.py` script to point to the location of your cloned repository.
-4. Run the `repo_to_txt.py` script. It will output a single `.txt` file containing all code and documentation from the repository.
+4. Run ```python repo_to_txt.py``` . It will output a single `.txt` file containing all code and documentation from the repository.
 
-### Example
+## Contributions
+If you find a repository implementation that you'd like to add, feel free to submit a pull request. Please ensure you provide:
 
-```bash
-python repo_to_txt.py
-```
+- A brief summary of the paper.
+- The original PDF of the paper (or a link to it).
+- The full GitHub repository in .txt format.
