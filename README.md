@@ -4,7 +4,7 @@
 
 ## Why This Repository Exists
 
-In the world of deep learning research, having access to the implementation code for state-of-the-art models is essential. However, repositories are often cluttered with extraneous files and complex structures, making it difficult to interact directly with the code, especially when using LLMs for assistance. This repository solves that by offering full repositories as clean text files. 
+In the world of deep learning research, having access to the implementation code for state-of-the-art models is essential. However, repositories are often cluttered with extraneous files and complex structures, making it difficult to interact directly with the code, especially when using LLMs for assistance. This repository solves that by offering full repositories as clean text files.
 
 LLMs can easily process this text format, allowing you to:
 - Query specific code snippets or logic.
@@ -31,7 +31,7 @@ paper-2/
 ### Key Focus Areas:
 - Deep Learning
 - Computer Vision
-- Self Supervised Learning (SSL)
+- Self-Supervised Learning (SSL)
 - 3D Vision
 - Video Processing (e.g., VideoMAE, Masked Autoencoders)
 
@@ -42,20 +42,19 @@ paper-2/
    - **Paper**: [arXiv](https://arxiv.org/pdf/2205.09113)  
    - **Original Repository**: [mae_st](https://github.com/facebookresearch/mae_st) (available in repo.txt)
 
+## How to Generate `.txt` Repositories Using `repo_to_txt.py`
 
-## How to Use
+To convert any GitHub repository into a single `.txt` file that can be fed into LLMs for better context handling, you can use the `repo_to_txt.py` script. This script will traverse through the repository, combine all relevant text-based files, and output them into a single text file.
 
-Each repository is provided in `.txt` format for easy parsing and integration. You can either:
-- Download the entire folder containing the paper, summary, and repository.
-- Directly copy relevant code segments from the `.txt` files for use in your own projects.
+### Usage Instructions:
 
-### Future Enhancements
-- **Folder Segmentation**: Over time, as more repositories are added, they will be segmented by research topics (e.g., 3D vision, video processing).
-- **Additional Annotations**: Future versions of this repo may include code annotations and example usage to help you better understand key functions.
+1. Clone the desired repository you want to convert into `.txt`.
+2. Place the repository folder on your machine.
+3. Modify the `repo_folder` path in the `repo_to_txt.py` script to point to the location of your cloned repository.
+4. Run the `repo_to_txt.py` script. It will output a single `.txt` file containing all code and documentation from the repository.
 
-## Contributions
-If you find a repository implementation that you'd like to add, feel free to submit a pull request. Please ensure you provide:
-1. A brief summary of the paper.
-2. The original PDF of the paper (or a link to it).
-3. The full GitHub repository in `.txt` format.
+### Example
 
+```bash
+python repo_to_txt.py
+```
