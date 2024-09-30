@@ -39,6 +39,5 @@ To convert any GitHub repository into a single `.txt` file that can be fed into 
 ## Contributions
 If you find a repository implementation that you'd like to add, feel free to submit a pull request. Please ensure you provide:
 
-- A brief summary of the paper.
-- The original PDF of the paper (or a link to it).
+- A README with the required contents (see examples within each folder)
 - The full GitHub repository in .txt format.
