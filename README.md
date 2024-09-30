@@ -24,12 +24,6 @@ Each folder in this repo contains:
 - 3D Vision
 - Video Processing (e.g., VideoMAE, Masked Autoencoders)
 
-## Papers and Repositories (example)
-
-1. **[Masked Autoencoders as Spatiotemporal Learners](https://arxiv.org/abs/2205.09113)**  
-   - **Summary**: This paper presents an extension of Masked Autoencoders (MAE) for learning spatiotemporal representations from videos. By randomly masking spacetime patches in videos, the autoencoder is trained to reconstruct the missing information. The method is efficient and achieves competitive results on various video datasets.  
-   - **Paper**: [arXiv](https://arxiv.org/pdf/2205.09113)  
-   - **Original Repository**: [mae_st](https://github.com/facebookresearch/mae_st) (available in repo.txt)
 
 ## How to Generate `.txt` Repositories Using `repo_to_txt.py`
 
