@@ -11,17 +11,16 @@ We present pure-transformer based models for video classification, drawing upon 
 [ViViT: A Video Vision Transformer](https://github.com/google-research/scenic/tree/main/scenic/projects/vivit)
 
 ## Authors
-Roman Bachmann, David Mizrahi, Andrei Atanov, Amir Zamir
-
+Anurag Arnab, Mostafa Dehghani, Georg Heigold, Chen Sun, Mario Lučić, Cordelia Schmid
 ## Citation
 ```bash
-@misc{bachmann2022multimaemultimodalmultitaskmasked,
-      title={MultiMAE: Multi-modal Multi-task Masked Autoencoders}, 
-      author={Roman Bachmann and David Mizrahi and Andrei Atanov and Amir Zamir},
-      year={2022},
-      eprint={2204.01678},
+@misc{arnab2021vivitvideovisiontransformer,
+      title={ViViT: A Video Vision Transformer}, 
+      author={Anurag Arnab and Mostafa Dehghani and Georg Heigold and Chen Sun and Mario Lučić and Cordelia Schmid},
+      year={2021},
+      eprint={2103.15691},
       archivePrefix={arXiv},
       primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2204.01678}, 
+      url={https://arxiv.org/abs/2103.15691}, 
 }
 ```
