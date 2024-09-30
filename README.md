@@ -1,6 +1,6 @@
-# full-repos-in-txt
+# DL-repos-as-txt
 
-**Full Repositories in Text Format** is a collection of full GitHub repositories for deep learning papers, specifically in areas such as computer vision, 3D vision, video processing, and other related topics. The repositories are stored in plain `.txt` format for easy integration with large language models (LLMs). This setup allows you to query and adapt the code directly, ensuring a smooth experience for extracting information and repurposing the implementations without navigating through messy or complex codebases.
+**Deep Learning Repositories in Text Format** is a collection of full GitHub repositories for deep learning papers, specifically in areas such as computer vision, 3D vision, video processing, and other related topics. The repositories are stored in plain `.txt` format for easy integration with large language models (LLMs). This setup allows you to query and adapt the code directly, ensuring a smooth experience for extracting information and repurposing the implementations without navigating through messy or complex codebases.
 
 ### Why This Repository Exists
 
