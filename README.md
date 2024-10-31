@@ -2,7 +2,7 @@
 
 **Deep Learning Repositories in Text Format** is a collection of full GitHub repositories for deep learning papers, specifically in areas such as computer vision, 3D vision, video processing, and other related topics. The repositories are stored in plain `.txt` format for easy integration with large language models (LLMs). This setup allows you to query and adapt the code directly, ensuring a smooth experience for extracting information and repurposing the implementations without navigating through messy or complex codebases.
 
-### Why This Repository Exists
+### Why This Repository Exists 
 
 In the world of deep learning research, having access to the implementation code for state-of-the-art models is essential. However, repositories are often cluttered with extraneous files and complex structures, making it difficult to interact directly with the code, especially when using LLMs for assistance. This repository solves that by offering full repositories as clean text files.
 
